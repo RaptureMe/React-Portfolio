@@ -1,20 +1,37 @@
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <section id="contact" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8 pb-4" data-aos="fade-up">
+            <h6 class="text-brand">CONTACT</h6>
+            <h1>Interested in working together? Lets talk</h1>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+            <form action="mailto:rosuflips@gmail.com" method="post" enctype="text/plain" class="row g-lg-3 gy-3">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Enter your email" />
+              </div>
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" placeholder="Enter subject" />
+              </div>
+              <div class="form-group col-md-12">
+                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="form-group col-md-12 d-grid">
+                <button type="submit" class="btn btn-brand">Contact me</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
   );
 }
