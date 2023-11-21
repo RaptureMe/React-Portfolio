@@ -1,22 +1,76 @@
-export default function Blog() {
+export default function Portfolio() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <section id="Portfolio" class="full-height px-lg-5">
+      <div class="container">
+
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h6 class="text-brand">Portfolio</h6>
+            <h1>My Recent Projects</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/800px-John_1.jpg" alt="Bible Page of John Chapter 1" />
+              </div>
+
+              <div class="card-custom-content p-4">
+                <h4>Bible Drips</h4>
+                <p>Bible randomizer, 31,102 verses in the bible. One click, take the journey! Click the link below to visit the site.</p>
+                <a href="https://raptureme.github.io/Bible-Drips/" class="link-custom">Visit Site</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-2.png" alt="" />
+              </div>
+
+              <div class="card-custom-content p-4">
+                <h4>Coming Soon...</h4>
+                <p>Still on my coding Journey, more projects are coming soon. Haha, soon is a relatively loose term... Finishing up my coding bootcamp!</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-3.png" alt="" />
+              </div>
+
+              <div class="card-custom-content p-4">
+                <h4>Coming Soon...</h4>
+                <p>Still on my coding Journey, more projects are coming soon. Haha, soon is a relatively loose term... Finishing up my coding bootcamp!</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/project-4.png" alt="" />
+              </div>
+
+              <div class="card-custom-content p-4">
+                <h4>Coming Soon...</h4>
+                <p>Still on my coding Journey, more projects are coming soon. Haha, soon is a relatively loose term... Finishing up my coding bootcamp!</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
   );
 }

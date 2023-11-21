@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               <a class="nav-link" onClick={() => handlePageChange('Services')} href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onClick={() => handlePageChange('Portfolio')} href="#Portfolio">Portfolio</a>
+              <a class="nav-link" onClick={() => handlePageChange('Portfolio')} href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" onClick={() => handlePageChange('Reviews')} href="#reviews">Reviews</a>
